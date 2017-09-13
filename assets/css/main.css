@@ -2159,10 +2159,20 @@
 			}
 
 			 .awaaz {
-				 display: flex;
-				 align-self: center;
-				 justify-content: center;
+				 width: 250px;
+				 height: 112px;
 			 }
+
+			 .archivelib {
+				 height: 20px;
+				 width: 20px;
+			 }
+
+			 .flappycat {
+				 width: 20px;
+				 height: 20px;
+			 }
+
 			.image.icon:hover:before {
 				-moz-transform: translateZ(1em);
 				-webkit-transform: translateZ(1em);
@@ -2660,6 +2670,7 @@
 
 		.path {
 			color: black;
+			text-transform: inherit;
 		}
 
 		.skillz {
